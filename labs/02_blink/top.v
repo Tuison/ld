@@ -12,6 +12,6 @@ module top(
     ...
     */
     assign LEDR = count; // 32 > 10 
-    //assign LEDR = count[31:22];
+    assign LEDR = count[31:22];
     //assign LEDR = {10{count[24]}}; // https://www.youtube.com/watch?v=jWkMhCLkVOg
 endmodule
